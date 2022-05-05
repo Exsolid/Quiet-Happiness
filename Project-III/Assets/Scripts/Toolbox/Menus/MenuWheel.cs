@@ -16,7 +16,6 @@ public class MenuWheel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (items == null) items = new List<GameObject>();
         degrees = new List<float>();
         float current = 0;
         foreach (GameObject item in items)
