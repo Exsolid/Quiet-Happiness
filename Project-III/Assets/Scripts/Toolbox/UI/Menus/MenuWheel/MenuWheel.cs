@@ -133,7 +133,7 @@ public class MenuWheel : MonoBehaviour
             {
                 runtime += Time.deltaTime;
                 item.transform.position = Vector3.Lerp(pastPos, pos + new Vector3(0, incline * (pos.x-xMin), 0), (runtime / timeToMoveForEachStep));
-                pastPos = pos;
+                pastPos = pos + new Vector3(0, incline * (pos.x - xMin));
                 yield return new WaitForEndOfFrame();
             }
         }
