@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Modul : MonoBehaviour
 {
-    private void Awake()
+    public virtual void Awake()
     {
         if (!ModulManager.registerModul(this))
         {

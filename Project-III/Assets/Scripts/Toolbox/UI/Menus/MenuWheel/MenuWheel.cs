@@ -32,6 +32,9 @@ public class MenuWheel : MonoBehaviour
             current += 360f / items.Count;
             index++;
         }
+
+        ModulManager.get<UIEventManager>().menuWheelNext += moveNext;
+        ModulManager.get<UIEventManager>().menuWheelPrevious += movePrev;
     }
     private void Update()
     {
@@ -39,11 +42,6 @@ public class MenuWheel : MonoBehaviour
         {
             currentTimer -= Time.deltaTime;
         }
-    }
-
-    private void OnMouseUp()
-    {
-        movePrev();
     }
 
     public void moveNext()
