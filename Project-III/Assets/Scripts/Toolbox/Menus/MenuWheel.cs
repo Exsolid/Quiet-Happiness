@@ -5,17 +5,22 @@ using UnityEngine;
 public class MenuWheel : MonoBehaviour
 {
     [SerializeField] private List<GameObject> items;
-    private List<float> degrees;
     [SerializeField] private float radius;
     [SerializeField] private float timeToMove;
     [SerializeField] private bool smoothCircle;
     [SerializeField] private bool switchXY;
+    [SerializeField] private float incline;
+
     private float currentTimer;
     private int index;
+    private List<float> degrees;
+    private float xMin;
 
     // Start is called before the first frame update
     void Start()
     {
+        xMin = transform.transform.position.x - radius;
+
         degrees = new List<float>();
         float current = 0;
         foreach (GameObject item in items)
@@ -23,6 +28,7 @@ public class MenuWheel : MonoBehaviour
             degrees.Add(current);
             if(switchXY) item.transform.position = new Vector3(radius * Mathf.Cos(Mathf.Deg2Rad * degrees[index]), 0, radius * Mathf.Sin(Mathf.Deg2Rad * degrees[index]));
             else item.transform.position = new Vector3(radius * Mathf.Cos(Mathf.Deg2Rad * degrees[index]), radius * Mathf.Sin(Mathf.Deg2Rad * degrees[index]), 0);
+            item.transform.position = item.transform.position + new Vector3(0, incline * (item.transform.position.x - xMin), 0);
             current += 360f / items.Count;
             index++;
         }
@@ -113,7 +119,7 @@ public class MenuWheel : MonoBehaviour
         while (runtime < timeToMove)
         {
             runtime += Time.deltaTime;
-            item.transform.position = Vector3.Lerp(startPos, newPos, (runtime/timeToMove));
+            item.transform.position = Vector3.Lerp(startPos, newPos + new Vector3(0, incline * (newPos.x - xMin), 0), (runtime/timeToMove));
             yield return new WaitForEndOfFrame();
         }
     }
@@ -128,7 +134,7 @@ public class MenuWheel : MonoBehaviour
             while (runtime < timeToMoveForEachStep)
             {
                 runtime += Time.deltaTime;
-                item.transform.position = Vector3.Lerp(pastPos, pos, (runtime / timeToMoveForEachStep));
+                item.transform.position = Vector3.Lerp(pastPos, pos + new Vector3(0, incline * (pos.x-xMin), 0), (runtime / timeToMoveForEachStep));
                 pastPos = pos;
                 yield return new WaitForEndOfFrame();
             }
