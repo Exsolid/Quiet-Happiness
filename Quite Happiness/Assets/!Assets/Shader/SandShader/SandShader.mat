@@ -20,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseColor_Sand:
+        m_Texture: {fileID: 2800000, guid: d75e0f49cccc2694cab69f85544ce4de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -52,6 +56,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothness_Sand:
+        m_Texture: {fileID: 2800000, guid: a2565ac9e82fa7f48b7c7389f0332d45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap_Sand:
+        m_Texture: {fileID: 2800000, guid: 711b9c03bbbf51646a90f0d3bfd9f7af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -69,7 +81,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_6ce9f69c1dc94b6c825c5c8552a381cd_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 8c35c6074a090fa4fa8223df2a6f4ff1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7db8c357289e4b54185ea0ec2213db88, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_bf421a1222894497962f4e79e6b8740d_Texture_1:
@@ -128,7 +140,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SandColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 0}
+    - _SandColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &5330559794322728339
