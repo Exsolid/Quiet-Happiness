@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecce8325be00dd24e9baca49b54208e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  referenceID: bep
+  referenceID: ID
 --- !u!1 &273939222
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   optionID: 0
+  parentCanvas: {fileID: 273939225}
 --- !u!1 &328680995
 GameObject:
   m_ObjectHideFlags: 0
@@ -777,6 +778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   optionID: 1
+  parentCanvas: {fileID: 273939225}
 --- !u!1 &965648407
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d70a6cba8dda5c643b45605306f8b8d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parentCanvas: {fileID: 273939225}
 --- !u!114 &1670504921
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,3 +4,6 @@
 [submodule "Quite Happiness/Assets/Scripts/Shared/UnityToolbox"]
 	path = Quite Happiness/Assets/Scripts/Shared/UnityToolbox
 	url = https://github.com/Exsolid/UnityToolbox.git
+[submodule "Quiet Happiness/Assets/Scripts/Shared/UnityToolbox"]
+	path = Quiet Happiness/Assets/Scripts/Shared/UnityToolbox
+	url = https://github.com/Exsolid/UnityToolbox
