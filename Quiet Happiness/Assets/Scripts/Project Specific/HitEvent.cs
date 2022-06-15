@@ -25,7 +25,7 @@ public class HitEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         if (myHit && input.actions[hitActionName].triggered)
         {
-            ModuleManager.get<MoleMinigameEventmanager>().Hit(0.1f, ID);
+            //ModuleManager.get<MoleMinigameEventmanager>().Hit(0.1f, ID);
             StartCoroutine(moveDown(0.1f));
         }
     }

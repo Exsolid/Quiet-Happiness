@@ -14,10 +14,11 @@ public class MoleMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ModuleManager.get<MoleMinigameEventmanager>().hit += (delay, ID) => { 
+        /*ModuleManager.get<MoleMinigameEventmanager>().hit += (delay, ID) =>
+        { 
             if(ID == this.ID) StartCoroutine(hit(delay));
         };
-        transform.position = new Vector3(transform.position.x, minPos.position.y, transform.position.z);
+        transform.position = new Vector3(transform.position.x, minPos.position.y, transform.position.z); */
     }
 
     // Update is called once per frame
