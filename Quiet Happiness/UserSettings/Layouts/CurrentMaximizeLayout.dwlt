@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 38735
+  controlID: 61466
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 38720
+  controlID: 61467
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 38721
+  controlID: 61468
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,10 +223,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1143}
-      m_SelectedIDs: c097fbff
-      m_LastClickedID: -288832
-      m_ExpandedIDs: 68d5fbffdcd5fbff7e22fcff9eb0ffff30fbffff80650000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d08bfbff68d5fbffdcd5fbff7e22fcff9eb0ffff30fbffff80650000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -242,7 +242,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
       index: 13
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -535,9 +535,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 25.551493, y: -27.361855, z: -65.15598}
+    m_Target: {x: -3.8291388, y: -18.720198, z: -59.50951}
     speed: 2
-    m_Value: {x: 25.551493, y: -27.361855, z: -65.15598}
+    m_Value: {x: -3.8291388, y: -18.720198, z: -59.50951}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -584,13 +584,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.04600769, y: -0.9532411, z: 0.22963716, w: -0.1909512}
+    m_Target: {x: 0.0018968459, y: -0.984168, z: 0.17695244, w: 0.010628754}
     speed: 2
-    m_Value: {x: 0.04600769, y: 0.9532411, z: -0.22963715, w: 0.1909512}
+    m_Value: {x: 0.0021804103, y: -0.9838769, z: 0.17842408, w: 0.012101645}
   m_Size:
-    m_Target: 35.355343
+    m_Target: 38.60892
     speed: 2
-    m_Value: 35.355343
+    m_Value: 38.60892
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -711,22 +711,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/3rd Party Assets/Idyllic Nature/PREFABS/Cliffs and Rocks
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/3rd Party Assets/Idyllic Nature/PREFABS/Cliffs and Rocks
   m_LastFoldersGridSize: -1
   m_LastProjectPath: I:\Projekt III\Unity\Quiet Happiness
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 026a0000
-    m_LastClickedID: 27138
-    m_ExpandedIDs: 00000000d8670000da670000dc670000066a00000a6a00000c6a0000126a0000126b0000246d0000c26d0000287900006c7c0000827d00001688000000ca9a3b
+    scrollPos: {x: 0, y: 297}
+    m_SelectedIDs: ca6d0000
+    m_LastClickedID: 28106
+    m_ExpandedIDs: 00000000d8670000da670000dc670000026a0000066a00000a6a00000c6a0000126a0000126b0000246d0000c26d0000287900006c7c0000827d00001688000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -779,8 +779,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c097fbff
-    m_LastClickedInstanceID: -288832
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000886e0000746900006269000000000000
     m_RenameOverlay:
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 38736
+  controlID: 61445
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
