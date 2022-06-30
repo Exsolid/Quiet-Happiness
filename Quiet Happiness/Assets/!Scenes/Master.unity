@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 272776198}
   - component: {fileID: 272776201}
   - component: {fileID: 272776202}
+  - component: {fileID: 272776203}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -186,6 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 484b6622195dfdb47a306e8e837318b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _moduls: []
 --- !u!114 &272776197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,9 +226,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
   actionMapName: PlayerControls
-  actionNameMoving: Char Move
-  actionNameReturn: Return
-  actionNameInteract: Interact
 --- !u!114 &272776201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,3 +251,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogGraph: {fileID: 11400000, guid: 37c3ab0af04197848be6bb17b5837e12, type: 2}
+--- !u!114 &272776203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272776193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a912829bf679ee6479ffb31c3145a7c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

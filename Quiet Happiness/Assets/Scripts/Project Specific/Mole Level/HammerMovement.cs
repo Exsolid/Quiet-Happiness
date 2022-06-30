@@ -13,7 +13,7 @@ public class HammerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       ModuleManager.get<MoleMinigameEventmanager>().hit += (delay, ID) => {
+       ModuleManager.GetModule<MoleMinigameEventmanager>().hit += (delay, ID) => {
             if (!isRotated)
             {
                 isRotated = true;

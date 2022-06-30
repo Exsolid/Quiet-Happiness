@@ -7,6 +7,6 @@ public class UIToggleInventory : MonoBehaviour, IPointerClickHandler
 {
     public void OnPointerClick(PointerEventData data)
     {
-        if(ModuleManager.get<MenuManager>().InMenu) ModuleManager.get<UIEventManager>().ToggleMenu(MenuType.Inventory);
+        if(ModuleManager.GetModule<MenuManager>().InMenu) ModuleManager.GetModule<UIEventManager>().ToggleMenu(MenuType.Inventory);
     }
 }
