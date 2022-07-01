@@ -9,6 +9,7 @@ public class HitEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     [SerializeField] private PlayerInput input;
     [SerializeField] private string hitActionName;
     private bool myHit;
+    private bool isHit;
     public int ID;
 
     public void OnPointerEnter(PointerEventData data)
@@ -23,7 +24,7 @@ public class HitEvent : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     private void Update()
     {
-        if (myHit && input.actions[hitActionName].triggered)
+        if (myHit && input.actions[hitActionName].triggered && !isHit)
         {
             ModuleManager.GetModule<MoleMinigameEventmanager>().Hit(0.1f, ID);
             StartCoroutine(moveDown(0.1f));

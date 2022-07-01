@@ -8,12 +8,14 @@ public class HammerMovement : MonoBehaviour
     [SerializeField] private string mouseActionName;
     [SerializeField] private GameObject planeToMoveIn;
     [SerializeField] private GameObject hammerModel;
+    private Vector3 originalRotation;
     private bool isRotated;
 
     // Start is called before the first frame update
     void Start()
     {
-       ModuleManager.GetModule<MoleMinigameEventmanager>().hit += (delay, ID) => {
+        originalRotation = new Vector3(hammerModel.transform.eulerAngles.x, hammerModel.transform.eulerAngles.y, hammerModel.transform.eulerAngles.z);
+        ModuleManager.GetModule<MoleMinigameEventmanager>().hit += (delay, ID) => {
             if (!isRotated)
             {
                 isRotated = true;
@@ -39,7 +41,7 @@ public class HammerMovement : MonoBehaviour
         while (passedTime < delay)
         {
             passedTime += Time.deltaTime;
-            hammerModel.transform.eulerAngles = Vector3.Lerp(currentRot, new Vector3(90, 0, 0), passedTime / delay);
+            hammerModel.transform.eulerAngles = Vector3.Lerp(originalRotation + new Vector3(90,0,0), currentRot, passedTime / delay);
             yield return null;
         }
         StartCoroutine(rotateBack(delay));
@@ -52,7 +54,7 @@ public class HammerMovement : MonoBehaviour
         while (passedTime < delay)
         {
             passedTime += Time.deltaTime;
-            hammerModel.transform.eulerAngles = Vector3.Lerp(currentRot, new Vector3(0, 0, 0), passedTime / delay);
+            hammerModel.transform.eulerAngles = Vector3.Lerp(currentRot, originalRotation, passedTime / delay);
             yield return null;
         }
         isRotated = false;

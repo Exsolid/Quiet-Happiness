@@ -9,11 +9,8 @@ EditorBuildSettings:
     path: Assets/!Scenes/Master.unity
     guid: baee1b27e97a2ae4ca287a0afb104f62
   - enabled: 1
-    path: Assets/!Scenes/[Lvl1 Testing].unity
-    guid: 9ea5b802adf3b1e458cc3c55c716debc
-  - enabled: 1
-    path: Assets/Sample/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/!Scenes/[Lvl1_Maulwurf].unity
+    guid: 58645608b75898943b47591daf0fdfda
   - enabled: 1
     path: Assets/!Scenes/Menu.unity
     guid: 222753cf6ac8fcd45bedf50719b3a6f4

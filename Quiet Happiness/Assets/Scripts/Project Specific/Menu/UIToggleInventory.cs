@@ -5,8 +5,15 @@ using UnityEngine.EventSystems;
 
 public class UIToggleInventory : MonoBehaviour, IPointerClickHandler
 {
+    private bool _isEnabled;
+
+    public void Awake()
+    {
+        GetComponentInParent<MenuEnable>().activeChanged += (isActive) => { _isEnabled = isActive; };
+    }
+
     public void OnPointerClick(PointerEventData data)
     {
-        if(ModuleManager.GetModule<MenuManager>().InMenu) ModuleManager.GetModule<UIEventManager>().ToggleMenu(MenuType.Inventory);
+        if(_isEnabled) ModuleManager.GetModule<UIEventManager>().ToggleMenu(MenuType.Inventory);
     }
 }
