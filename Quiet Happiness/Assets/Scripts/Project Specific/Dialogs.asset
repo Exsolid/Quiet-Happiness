@@ -10,35 +10,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31390c44c9f3a3d40b424bf6821999a2, type: 3}
-  m_Name: Dialog
+  m_Name: Dialogs
   m_EditorClassIdentifier: 
   serializedNodes: []
   nodes:
-  - rid: 5823456293539282944
-  - rid: 5823456293539282945
-  - rid: 5823456293539282946
-  - rid: 5823456293539282947
+  - rid: 2614203346378293248
+  - rid: 2614203346378293249
+  - rid: 2614203346378293250
+  - rid: 2614203346378293251
   edges:
-  - GUID: 87c4fe4a-6c7e-4111-8833-56db6b5e6368
+  - GUID: 6bf2aaba-7c0b-4044-aaf8-4d4d88d07330
     owner: {fileID: 11400000}
-    inputNodeGUID: f58732bd-ac42-4995-ac82-2b29f63c7715
-    outputNodeGUID: 1f9531a8-e23d-41ee-a534-9e7bc6e17943
+    inputNodeGUID: 36da227c-e1c4-4401-a85e-136b69669fa0
+    outputNodeGUID: c5d1990c-719d-467e-b5a9-8d9e775259a7
     inputFieldName: previous
     outputFieldName: next
     inputPortIdentifier: 
     outputPortIdentifier: 
-  - GUID: c34722ae-a23c-40da-afcd-85ec6714042d
+  - GUID: 6fb364d0-9995-40da-9427-a2cce7ba1ef8
     owner: {fileID: 11400000}
-    inputNodeGUID: ea7a230f-f506-4922-b7d0-5837c18bdc2e
-    outputNodeGUID: f58732bd-ac42-4995-ac82-2b29f63c7715
+    inputNodeGUID: f3495391-6d51-4fa0-b0e4-e4615fbe2932
+    outputNodeGUID: 75b92196-99a2-4095-b3f3-9b11ef3997da
     inputFieldName: previous
     outputFieldName: next
     inputPortIdentifier: 
     outputPortIdentifier: 
-  - GUID: 728b8f89-613b-4d1a-8b39-16036b5b0340
+  - GUID: fc88bf4f-eddf-4adc-8220-5a364a3e56f3
     owner: {fileID: 11400000}
-    inputNodeGUID: 8fef8642-767b-4470-bb31-8c9ca82177bc
-    outputNodeGUID: f58732bd-ac42-4995-ac82-2b29f63c7715
+    inputNodeGUID: 75b92196-99a2-4095-b3f3-9b11ef3997da
+    outputNodeGUID: 36da227c-e1c4-4401-a85e-136b69669fa0
     inputFieldName: previous
     outputFieldName: next
     inputPortIdentifier: 
@@ -50,93 +50,94 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: 77, y: 132, z: 0}
-  scale: {x: 0.8695652, y: 0.8695652, z: 1}
+  position: {x: 584, y: 587, z: 0}
+  scale: {x: 0.57175326, y: 0.57175326, z: 1}
   references:
     version: 2
     RefIds:
-    - rid: 5823456293539282944
+    - rid: 2614203346378293248
       type: {class: DialogRootNode, ns: , asm: Assembly-CSharp}
       data:
         nodeCustomName: 
-        GUID: 1f9531a8-e23d-41ee-a534-9e7bc6e17943
+        GUID: c5d1990c-719d-467e-b5a9-8d9e775259a7
         computeOrder: 0
         position:
           serializedVersion: 2
-          x: 6.260868
-          y: 68.65216
-          width: 178
+          x: 139.745
+          y: -202.9675
+          width: 873
           height: 4171
         expanded: 0
         debug: 0
         nodeLock: 0
-        title: Mr Bob
-        description: Hello
+        title: Marta
+        description: "Hey, du musst der neue Nachbar sein! Ich freue mich dich kennenzulernen.
+          Mein Name ist Marta, ich wohne direkt gegen\xFCber."
         soundToPlay: 
         options: []
         next: 0
-        referenceID: ID
-    - rid: 5823456293539282945
+        referenceID: Tutorial Dialog
+    - rid: 2614203346378293249
       type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
       data:
         nodeCustomName: 
-        GUID: f58732bd-ac42-4995-ac82-2b29f63c7715
+        GUID: 36da227c-e1c4-4401-a85e-136b69669fa0
         computeOrder: 1
         position:
           serializedVersion: 2
-          x: 345.85007
-          y: 88.99935
-          width: 212
-          height: 4151
-        expanded: 0
-        debug: 0
-        nodeLock: 0
-        title: Mr Bob
-        description: wef
-        soundToPlay: 
-        options:
-        - 1
-        - 2
-        next: 0
-        previous: 0
-    - rid: 5823456293539282946
-      type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
-      data:
-        nodeCustomName: 
-        GUID: ea7a230f-f506-4922-b7d0-5837c18bdc2e
-        computeOrder: 2
-        position:
-          serializedVersion: 2
-          x: 781.8262
-          y: -69.82609
-          width: 212
-          height: 4151
-        expanded: 0
-        debug: 0
-        nodeLock: 0
-        title: Mr Bob
-        description: eggere
-        soundToPlay: 
-        options: []
-        next: 0
-        previous: 0
-    - rid: 5823456293539282947
-      type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
-      data:
-        nodeCustomName: 
-        GUID: 8fef8642-767b-4470-bb31-8c9ca82177bc
-        computeOrder: 3
-        position:
-          serializedVersion: 2
-          x: 618.00006
-          y: 342.25003
+          x: 1054.04
+          y: -202.99998
           width: 199
           height: 4151
         expanded: 0
         debug: 0
         nodeLock: 0
-        title: d
-        description: ewgrtrj
+        title: Marta
+        description: Hmm... bei dir sieht es ja noch sehr leer aus...
+        soundToPlay: 
+        options: []
+        next: 0
+        previous: 0
+    - rid: 2614203346378293250
+      type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: 75b92196-99a2-4095-b3f3-9b11ef3997da
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 1517.6262
+          y: -203
+          width: 535
+          height: 4151
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        title: Marta
+        description: "Da habe ich doch direkt das passende Einzugsgeschenk f\xFCr
+          dich."
+        soundToPlay: 
+        options: []
+        next: 0
+        previous: 0
+    - rid: 2614203346378293251
+      type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
+      data:
+        nodeCustomName: 
+        GUID: f3495391-6d51-4fa0-b0e4-e4615fbe2932
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 2124
+          y: -203
+          width: 793
+          height: 4151
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        title: Marta
+        description: "Stell es doch einmal in deinen Raum und schaue ob es dir gef\xE4llt.
+          Ich habe es dir n deinen Umzugskarton gelegt."
         soundToPlay: 
         options: []
         next: 0

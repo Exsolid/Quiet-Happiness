@@ -9,11 +9,17 @@ public class UIToggleInventory : MonoBehaviour, IPointerClickHandler
 
     public void Awake()
     {
-        GetComponentInParent<MenuEnable>().activeChanged += (isActive) => { _isEnabled = isActive; };
+        GetComponentInParent<Menu>().activeChanged += (isActive) => { _isEnabled = isActive; };
     }
 
     public void OnPointerClick(PointerEventData data)
     {
-        if(_isEnabled) ModuleManager.GetModule<UIEventManager>().ToggleMenu(MenuType.Inventory);
+        if (!_isEnabled)
+        {
+            bool wasEnabled = ModuleManager.GetModule<MenuManager>().IsEnabled;
+            if (!wasEnabled) ModuleManager.GetModule<MenuManager>().ToggleMenuManager(true);
+            ModuleManager.GetModule<MenuManager>().ToggleMenu(MenuType.Inventory, true);
+            if (wasEnabled) ModuleManager.GetModule<MenuManager>().ToggleMenuManager(false);
+        }
     }
 }
