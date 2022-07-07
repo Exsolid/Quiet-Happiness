@@ -4796,11 +4796,11 @@ GameObject:
   - component: {fileID: 813377662}
   - component: {fileID: 813377661}
   - component: {fileID: 813377669}
-  - component: {fileID: 813377668}
   - component: {fileID: 813377666}
   - component: {fileID: 813377665}
   - component: {fileID: 813377667}
-  - component: {fileID: 813377671}
+  - component: {fileID: 813377672}
+  - component: {fileID: 813377673}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -4939,20 +4939,6 @@ MonoBehaviour:
   m_DefaultActionMap: PlayerControls
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &813377668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813377660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df9e30bfb0c93d344a8fd4de9bd49067, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _actionName: Return
-  _menuType: 2
 --- !u!114 &813377669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4965,7 +4951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b7312de703dd242882df93ac1a8d6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &813377671
+--- !u!114 &813377672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4974,10 +4960,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 813377660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecce8325be00dd24e9baca49b54208e7, type: 3}
+  m_Script: {fileID: 11500000, guid: 18ca6d686b7946f4399ad7820fe0ba05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  referenceID: Tutorial Dialog
+  SelectedID: 0
+  IDs:
+  - TutorialGiveItems
+  - TutorialDone
+  _inventory: {fileID: 1505541113}
+  _itemsToAdd:
+  - {fileID: 7052138173217859482, guid: 4ece572bcbb7cf341b49dcc82da3867e, type: 3}
+--- !u!114 &813377673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813377660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7416da8e6480bdc4aa0b97cfde615d5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &844621029
 GameObject:
   m_ObjectHideFlags: 0

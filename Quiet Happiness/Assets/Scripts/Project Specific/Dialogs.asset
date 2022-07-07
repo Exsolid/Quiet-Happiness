@@ -50,8 +50,8 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: 584, y: 587, z: 0}
-  scale: {x: 0.57175326, y: 0.57175326, z: 1}
+  position: {x: -829, y: 606, z: 0}
+  scale: {x: 1, y: 1, z: 1}
   references:
     version: 2
     RefIds:
@@ -70,13 +70,13 @@ MonoBehaviour:
         expanded: 0
         debug: 0
         nodeLock: 0
-        title: Marta
-        description: "Hey, du musst der neue Nachbar sein! Ich freue mich dich kennenzulernen.
-          Mein Name ist Marta, ich wohne direkt gegen\xFCber."
-        soundToPlay: 
-        options: []
+        Title: Marta
+        Description: 1
+        SoundToPlay: 
+        CompletionToSet: 
+        Options: []
         next: 0
-        referenceID: Tutorial Dialog
+        referenceID: TutorialGiveItems
     - rid: 2614203346378293249
       type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
       data:
@@ -92,10 +92,11 @@ MonoBehaviour:
         expanded: 0
         debug: 0
         nodeLock: 0
-        title: Marta
-        description: Hmm... bei dir sieht es ja noch sehr leer aus...
-        soundToPlay: 
-        options: []
+        Title: Marta
+        Description: 2
+        SoundToPlay: 
+        CompletionToSet: 
+        Options: []
         next: 0
         previous: 0
     - rid: 2614203346378293250
@@ -113,11 +114,11 @@ MonoBehaviour:
         expanded: 0
         debug: 0
         nodeLock: 0
-        title: Marta
-        description: "Da habe ich doch direkt das passende Einzugsgeschenk f\xFCr
-          dich."
-        soundToPlay: 
-        options: []
+        Title: Marta
+        Description: 3
+        SoundToPlay: 
+        CompletionToSet: 
+        Options: []
         next: 0
         previous: 0
     - rid: 2614203346378293251
@@ -135,10 +136,10 @@ MonoBehaviour:
         expanded: 0
         debug: 0
         nodeLock: 0
-        title: Marta
-        description: "Stell es doch einmal in deinen Raum und schaue ob es dir gef\xE4llt.
-          Ich habe es dir n deinen Umzugskarton gelegt."
-        soundToPlay: 
-        options: []
+        Title: Marta
+        Description: 4
+        SoundToPlay: 
+        CompletionToSet: TutorialGiveItems
+        Options: []
         next: 0
         previous: 0

@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94168aa0bf1b682498aeb339461ac7fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneName: '[Lvl1_Maulwurf]'
+  _sceneName: Menu
 --- !u!114 &272776205
 MonoBehaviour:
   m_ObjectHideFlags: 0
