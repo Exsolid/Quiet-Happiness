@@ -11,7 +11,7 @@ public class ZoomMenuItemTriggerButton : MonoBehaviour, IPointerClickHandler
 
     public void Awake()
     {
-        GetComponentInParent<Menu>().activeChanged += (isActive) => { _isEnabled = isActive; };
+        GetComponentInParent<Menu>().OnActiveChanged += (isActive) => { _isEnabled = isActive; };
     }
 
     public void OnPointerClick(PointerEventData data)

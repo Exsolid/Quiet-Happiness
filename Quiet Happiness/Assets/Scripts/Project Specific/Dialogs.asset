@@ -19,28 +19,28 @@ MonoBehaviour:
   - rid: 2614203346378293250
   - rid: 2614203346378293251
   edges:
-  - GUID: 6bf2aaba-7c0b-4044-aaf8-4d4d88d07330
+  - GUID: abe4024f-8f78-4fa9-b02d-986a6290e366
     owner: {fileID: 11400000}
     inputNodeGUID: 36da227c-e1c4-4401-a85e-136b69669fa0
     outputNodeGUID: c5d1990c-719d-467e-b5a9-8d9e775259a7
-    inputFieldName: previous
-    outputFieldName: next
+    inputFieldName: Previous
+    outputFieldName: Next
     inputPortIdentifier: 
     outputPortIdentifier: 
-  - GUID: 6fb364d0-9995-40da-9427-a2cce7ba1ef8
-    owner: {fileID: 11400000}
-    inputNodeGUID: f3495391-6d51-4fa0-b0e4-e4615fbe2932
-    outputNodeGUID: 75b92196-99a2-4095-b3f3-9b11ef3997da
-    inputFieldName: previous
-    outputFieldName: next
-    inputPortIdentifier: 
-    outputPortIdentifier: 
-  - GUID: fc88bf4f-eddf-4adc-8220-5a364a3e56f3
+  - GUID: e39ca5ae-5a3b-4a2a-859b-59df050f8937
     owner: {fileID: 11400000}
     inputNodeGUID: 75b92196-99a2-4095-b3f3-9b11ef3997da
     outputNodeGUID: 36da227c-e1c4-4401-a85e-136b69669fa0
-    inputFieldName: previous
-    outputFieldName: next
+    inputFieldName: Previous
+    outputFieldName: Next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 82e1427c-ddff-41ad-b38d-9851c62c5334
+    owner: {fileID: 11400000}
+    inputNodeGUID: f3495391-6d51-4fa0-b0e4-e4615fbe2932
+    outputNodeGUID: 75b92196-99a2-4095-b3f3-9b11ef3997da
+    inputFieldName: Previous
+    outputFieldName: Next
     inputPortIdentifier: 
     outputPortIdentifier: 
   groups: []
@@ -50,8 +50,8 @@ MonoBehaviour:
   serializedParameterList: []
   stickyNotes: []
   nodeInspectorReference: {fileID: 0}
-  position: {x: -829, y: 606, z: 0}
-  scale: {x: 1, y: 1, z: 1}
+  position: {x: 101, y: 510, z: 0}
+  scale: {x: 0.65751624, y: 0.65751624, z: 1}
   references:
     version: 2
     RefIds:
@@ -63,10 +63,10 @@ MonoBehaviour:
         computeOrder: 0
         position:
           serializedVersion: 2
-          x: 139.745
-          y: -202.9675
-          width: 873
-          height: 4171
+          x: 233.89749
+          y: -203.00005
+          width: 205
+          height: 4175
         expanded: 0
         debug: 0
         nodeLock: 0
@@ -75,8 +75,8 @@ MonoBehaviour:
         SoundToPlay: 
         CompletionToSet: 
         Options: []
-        next: 0
-        referenceID: TutorialGiveItems
+        Next: 0
+        ReferenceID: TutorialGiveItems
     - rid: 2614203346378293249
       type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
       data:
@@ -97,8 +97,8 @@ MonoBehaviour:
         SoundToPlay: 
         CompletionToSet: 
         Options: []
-        next: 0
-        previous: 0
+        Next: 0
+        Previous: 0
     - rid: 2614203346378293250
       type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
       data:
@@ -119,8 +119,8 @@ MonoBehaviour:
         SoundToPlay: 
         CompletionToSet: 
         Options: []
-        next: 0
-        previous: 0
+        Next: 0
+        Previous: 0
     - rid: 2614203346378293251
       type: {class: DialogBranchNode, ns: , asm: Assembly-CSharp}
       data:
@@ -141,5 +141,5 @@ MonoBehaviour:
         SoundToPlay: 
         CompletionToSet: TutorialGiveItems
         Options: []
-        next: 0
-        previous: 0
+        Next: 0
+        Previous: 0

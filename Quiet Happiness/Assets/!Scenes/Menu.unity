@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: f4edde78a5af4f04784162f2d74e14f7, type: 3}
 --- !u!1 &18798635
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,9 +620,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325b1a579a970924a8a6127dfdd3b88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: up
-  actionName: Char Move
-  parentCanvas: {fileID: 398301139}
+  _control: down
+  _actionName: Char Move
 --- !u!114 &43377319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,7 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 2a133e1265bd3fe498e15a9fe9e1a0f3, type: 3}
 --- !u!1 &62691716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,7 +1089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 398301139}
+  _menu: {fileID: 398301141}
 --- !u!114 &159264755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1103,7 +1102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: f4edde78a5af4f04784162f2d74e14f7, type: 3}
 --- !u!1 &167192525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1818,9 +1817,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325b1a579a970924a8a6127dfdd3b88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: up
-  actionName: Char Move
-  parentCanvas: {fileID: 398301139}
+  _control: 
+  _actionName: Return
 --- !u!114 &402648118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1871,7 +1869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 2a133e1265bd3fe498e15a9fe9e1a0f3, type: 3}
 --- !u!1 &414327384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,9 +1920,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c699a1809ab06488df441e3305eda5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: left
-  actionName: Char Move
-  parentCanvas: {fileID: 398301139}
+  _control: left
+  _actionName: Char Move
 --- !u!1 &424944312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2536,7 +2533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 398301139}
+  _menu: {fileID: 398301141}
 --- !u!1 &490408877
 GameObject:
   m_ObjectHideFlags: 0
@@ -3419,9 +3416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325b1a579a970924a8a6127dfdd3b88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: up
-  actionName: Char Move
-  parentCanvas: {fileID: 398301139}
+  _control: right
+  _actionName: Char Move
 --- !u!114 &633296596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3472,7 +3468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 2a133e1265bd3fe498e15a9fe9e1a0f3, type: 3}
 --- !u!1 &641414814
 GameObject:
   m_ObjectHideFlags: 0
@@ -3999,9 +3995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325b1a579a970924a8a6127dfdd3b88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: up
-  actionName: Char Move
-  parentCanvas: {fileID: 5286402768919845436}
+  _control: 
+  _actionName: 
 --- !u!114 &691848134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4279,7 +4274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 1751303903}
+  _menu: {fileID: 1751303905}
 --- !u!114 &731370045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4330,7 +4325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 5bf00ad55e671f2489befca5842531ad, type: 3}
 --- !u!1 &732256010
 GameObject:
   m_ObjectHideFlags: 0
@@ -5533,7 +5528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: f4edde78a5af4f04784162f2d74e14f7, type: 3}
 --- !u!1 &890475783
 GameObject:
   m_ObjectHideFlags: 0
@@ -5587,9 +5582,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325b1a579a970924a8a6127dfdd3b88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: up
-  actionName: Char Move
-  parentCanvas: {fileID: 398301139}
+  _control: left
+  _actionName: Char Move
 --- !u!114 &890475786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5640,7 +5634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 2a133e1265bd3fe498e15a9fe9e1a0f3, type: 3}
 --- !u!1 &896869064
 GameObject:
   m_ObjectHideFlags: 0
@@ -5891,7 +5885,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 1666091302}
+  _menu: {fileID: 1666091303}
 --- !u!1 &976525500
 GameObject:
   m_ObjectHideFlags: 0
@@ -6074,7 +6068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 90182be6b26270e479a8ab1d4c988c58, type: 3}
 --- !u!1 &996958621
 GameObject:
   m_ObjectHideFlags: 0
@@ -6208,7 +6202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 529648925}
+  _menu: {fileID: 529648927}
 --- !u!114 &998659766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6259,7 +6253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 5bf00ad55e671f2489befca5842531ad, type: 3}
 --- !u!1 &1000842423
 GameObject:
   m_ObjectHideFlags: 0
@@ -6826,7 +6820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 529648925}
+  _menu: {fileID: 529648927}
 --- !u!114 &1057416187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6839,7 +6833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 5bf00ad55e671f2489befca5842531ad, type: 3}
 --- !u!1 &1057650588
 GameObject:
   m_ObjectHideFlags: 0
@@ -6891,9 +6885,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325b1a579a970924a8a6127dfdd3b88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: up
-  actionName: Char Move
-  parentCanvas: {fileID: 5286402768919845436}
+  _control: 
+  _actionName: 
 --- !u!114 &1057650591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7104,7 +7097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 1666091302}
+  _menu: {fileID: 1666091303}
 --- !u!114 &1082244809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7117,7 +7110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 5bf00ad55e671f2489befca5842531ad, type: 3}
 --- !u!1 &1090877216
 GameObject:
   m_ObjectHideFlags: 0
@@ -7169,7 +7162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 529648925}
+  _menu: {fileID: 529648927}
 --- !u!114 &1090877219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7325,14 +7318,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _camera: {fileID: 1000842425}
-  items:
+  _items:
   - {fileID: 2109999145}
   - {fileID: 844621029}
-  radius: 6
-  timeToMove: 2
-  smoothCircle: 1
-  switchXY: 1
-  incline: 1
+  _radius: 6
+  _timeToMove: 1
+  _smoothCircle: 0
+  _switchXY: 1
+  _incline: 0
 --- !u!65 &1107913342
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8034,9 +8027,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c699a1809ab06488df441e3305eda5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: down
-  actionName: Char Move
-  parentCanvas: {fileID: 398301139}
+  _control: down
+  _actionName: Char Move
 --- !u!1 &1244536249
 GameObject:
   m_ObjectHideFlags: 0
@@ -8207,7 +8199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 90182be6b26270e479a8ab1d4c988c58, type: 3}
 --- !u!1 &1329430162
 GameObject:
   m_ObjectHideFlags: 0
@@ -8258,9 +8250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c699a1809ab06488df441e3305eda5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: right
-  actionName: Char Move
-  parentCanvas: {fileID: 398301139}
+  _control: right
+  _actionName: Char Move
 --- !u!1 &1356812607
 GameObject:
   m_ObjectHideFlags: 0
@@ -8446,7 +8437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 529648925}
+  _menu: {fileID: 529648927}
 --- !u!1 &1373108589
 GameObject:
   m_ObjectHideFlags: 0
@@ -8538,9 +8529,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5064a571198e8bd48af471172a5be9f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: {fileID: 996958623}
-  description: {fileID: 1888891955}
-  options: []
+  _title: {fileID: 996958623}
+  _description: {fileID: 1888891955}
+  _options: []
 --- !u!114 &1373108595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8797,9 +8788,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c699a1809ab06488df441e3305eda5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: 
-  actionName: Return
-  parentCanvas: {fileID: 398301139}
+  _control: 
+  _actionName: Return
 --- !u!1 &1441008384
 GameObject:
   m_ObjectHideFlags: 0
@@ -9288,7 +9278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2278682f8d9ddf948bdf339b8413e40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: 116307
+  id: Menu/902835
 --- !u!1 &1508177079
 GameObject:
   m_ObjectHideFlags: 0
@@ -9562,7 +9552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 90182be6b26270e479a8ab1d4c988c58, type: 3}
 --- !u!1 &1551311964
 GameObject:
   m_ObjectHideFlags: 0
@@ -9760,8 +9750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d40ad77934c0954299d9408dae73216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  option: 0
-  parentCanvas: {fileID: 5286402768919845436}
+  _option: 0
 --- !u!1 &1565447053
 GameObject:
   m_ObjectHideFlags: 0
@@ -9853,9 +9842,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325b1a579a970924a8a6127dfdd3b88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: up
-  actionName: Char Move
-  parentCanvas: {fileID: 398301139}
+  _control: up
+  _actionName: Char Move
 --- !u!114 &1565447058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9868,7 +9856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 2a133e1265bd3fe498e15a9fe9e1a0f3, type: 3}
 --- !u!1 &1593143774
 GameObject:
   m_ObjectHideFlags: 0
@@ -10105,7 +10093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 529648925}
+  _menu: {fileID: 529648927}
 --- !u!114 &1629372582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10451,7 +10439,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 1751303903}
+  _menu: {fileID: 1751303905}
 --- !u!114 &1709857571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10676,7 +10664,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 90182be6b26270e479a8ab1d4c988c58, type: 3}
 --- !u!1 &1715201406
 GameObject:
   m_ObjectHideFlags: 0
@@ -10729,7 +10717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27fe48a5346af48459a510f1aadd6e88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: 1
+  _direction: 0
 --- !u!114 &1715201409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11667,7 +11655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41cfca84f26ea4488169b60042f42a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _menuType: 0
+  _menuType: 1
 --- !u!114 &1900278685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11680,7 +11668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 5bf00ad55e671f2489befca5842531ad, type: 3}
 --- !u!1 &1902665738
 GameObject:
   m_ObjectHideFlags: 0
@@ -11885,9 +11873,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c699a1809ab06488df441e3305eda5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: up
-  actionName: Char Move
-  parentCanvas: {fileID: 398301139}
+  _control: up
+  _actionName: Char Move
 --- !u!1 &1924239839
 GameObject:
   m_ObjectHideFlags: 0
@@ -12098,7 +12085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 5bf00ad55e671f2489befca5842531ad, type: 3}
 --- !u!114 &1932498493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12111,7 +12098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6549a9f19430a41ac9c6b3dcd45ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 529648925}
+  _menu: {fileID: 529648927}
 --- !u!114 &1932498494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12456,8 +12443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d40ad77934c0954299d9408dae73216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  option: 1
-  parentCanvas: {fileID: 5286402768919845436}
+  _option: 0
 --- !u!114 &2007982460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12477,7 +12463,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -12862,7 +12848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 90182be6b26270e479a8ab1d4c988c58, type: 3}
 --- !u!1 &2061957616
 GameObject:
   m_ObjectHideFlags: 0
@@ -13334,7 +13320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27fe48a5346af48459a510f1aadd6e88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: 0
+  _direction: 0
 --- !u!114 &2123041347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13477,7 +13463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049df4bd91eb33f44b60d1e23aa48b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteSwapOnHover: {fileID: 0}
+  _spriteSwapOnHover: {fileID: 21300000, guid: 2a133e1265bd3fe498e15a9fe9e1a0f3, type: 3}
 --- !u!114 &5286402768736400348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13490,9 +13476,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325b1a579a970924a8a6127dfdd3b88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  control: '-'
-  actionName: 
-  parentCanvas: {fileID: 398301139}
+  _control: 
+  _actionName: 
 --- !u!114 &5286402768919845434
 MonoBehaviour:
   m_ObjectHideFlags: 0

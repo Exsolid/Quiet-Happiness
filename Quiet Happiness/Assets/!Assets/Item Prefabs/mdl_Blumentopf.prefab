@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3836493845754483695}
   - component: {fileID: 185260314372349002}
   - component: {fileID: 2699584788225124480}
-  - component: {fileID: 2294072171046664510}
   - component: {fileID: 7052138173217859482}
   m_Layer: 0
   m_Name: mdl_Blumentopf
@@ -85,18 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &2294072171046664510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4500827208291141973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09a118a63b85e6a49b4ed6bb07a0ba7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7052138173217859482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,6 +98,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: 
   _inEditor: 0
-  _path: Assets/Resources/mdl_Blumentopf.prefab
+  PrefabID: 0
   _itemName: 
   _icon: {fileID: 21300000, guid: 7a88fe8c95c2031429dd03e1e9b6610a, type: 3}

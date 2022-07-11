@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 272776203}
   - component: {fileID: 272776204}
   - component: {fileID: 272776205}
+  - component: {fileID: 272776206}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -226,8 +227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eba51c5a542dc0147ad6dcd48fddd5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controls: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
-  actionMapName: PlayerControls
+  _controls: {fileID: -944628639613478452, guid: bfa57ed7135ce014a9126e7256904d67, type: 3}
+  _actionMapName: PlayerControls
 --- !u!114 &272776201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fea6e4dc343e21a4bb70293e5ededaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogGraph: {fileID: 11400000, guid: f24e437def0366a47ac433344e5c612e, type: 2}
+  _dialogGraph: {fileID: 11400000, guid: f24e437def0366a47ac433344e5c612e, type: 2}
 --- !u!114 &272776203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,3 +292,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pathToUse: D:\SaveGame
+--- !u!114 &272776206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272776193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5bf06445feeda943bafcea1880b109e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefabToAdd: {fileID: 0}
+  _prefabToRemove: {fileID: 0}
+  _status: Added mdl_Blumentopf
+  _nextID: 1
+  _prefabs:
+  - {fileID: 4500827208291141973, guid: 4ece572bcbb7cf341b49dcc82da3867e, type: 3}
+  ToSerialize: []

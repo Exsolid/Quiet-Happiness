@@ -13,7 +13,7 @@ public class CompletionListener : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ModuleManager.GetModule<SaveGameManager>().completionInfoChanged += EvaluateCompletion;
+        ModuleManager.GetModule<SaveGameManager>().OnCompletionInfoChanged += EvaluateCompletion;
     }
 
     private void EvaluateCompletion(string ID, bool isDone)
