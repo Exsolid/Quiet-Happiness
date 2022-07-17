@@ -306,8 +306,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _prefabToAdd: {fileID: 0}
   _prefabToRemove: {fileID: 0}
-  _status: Added mdl_Blumentopf
-  _nextID: 1
+  _status: Added mdl_Bett
+  _nextID: 2
   _prefabs:
   - {fileID: 4500827208291141973, guid: 4ece572bcbb7cf341b49dcc82da3867e, type: 3}
+  - {fileID: 6681745791410603346, guid: e6a98b341b1f2194e93defee675cf315, type: 3}
   ToSerialize: []

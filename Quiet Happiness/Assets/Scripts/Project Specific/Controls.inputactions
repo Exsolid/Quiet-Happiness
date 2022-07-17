@@ -15,6 +15,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Mouse Click",
+                    "type": "Button",
+                    "id": "9847c706-d3c1-4d92-ac3c-53d6414ba117",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Char Move",
                     "type": "PassThrough",
                     "id": "6938cd80-bd9e-4cab-83b4-4b29567382a8",
@@ -128,6 +137,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Hit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5992387c-ff26-4619-9957-c6c080fa6e39",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Click",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

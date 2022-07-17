@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ZoomMenuItemTriggerButton : MonoBehaviour, IPointerClickHandler
+public class ZoomMenuItemTriggerButton : MonoBehaviour
 {
     [SerializeField] private bool inMenu;
     [SerializeField] private ZoomMenuItem _zoom;
@@ -14,7 +14,7 @@ public class ZoomMenuItemTriggerButton : MonoBehaviour, IPointerClickHandler
         GetComponentInParent<Menu>().OnActiveChanged += (isActive) => { _isEnabled = isActive; };
     }
 
-    public void OnPointerClick(PointerEventData data)
+    public void Click()
     {
         if (!(inMenu ^ _zoom.Zoomed) && !(_isEnabled ^ !_zoom.Zoomed) && !ModuleManager.GetModule<MenuManager>().CurrentActiveMenuList.MenuType.Equals(MenuType.Inventory))
         {

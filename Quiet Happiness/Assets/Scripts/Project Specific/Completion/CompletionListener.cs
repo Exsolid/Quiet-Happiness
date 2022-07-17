@@ -7,7 +7,7 @@ public class CompletionListener : MonoBehaviour
 {
     [DropDown(nameof(IDs))] [SerializeField] public int SelectedID;
     [HideInInspector] public List<string> IDs;
-    [SerializeField] private Inventory _inventory;
+    [SerializeField] private BoundInventory _inventory;
     [SerializeField] private List<Item> _itemsToAdd;
 
     // Start is called before the first frame update
